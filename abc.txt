@@ -1,0 +1,12 @@
+<h1 style="height:100%; display:inline; font-family:poppins;position: absolute;">
+                    About Us
+                </h1>
+                <h1 style="height:100%;display:inline;position: absolute;  font-family:poppins;">
+                    Our App
+                </h1>
+                <h1 style="height:100%;display:inline;  font-family:poppins;position: absolute;">
+                    Donate
+                </h1>
+                
+                <section id="head" style="position : fixed;background-color:#dfdce3; height:10%; width:100%;">
+            </section>

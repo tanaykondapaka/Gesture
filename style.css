@@ -1,0 +1,128 @@
+td{
+
+    width: 14.28571428571429%;
+}
+#div{
+    border-radius: 0 50px 0 50px;
+    height: 500px;
+    width:475px;
+    margin-top: 150px;
+    margin-left: 150px;
+    position: absolute;
+    background-color: #55d6c2;
+    font-size: 40px;
+    color: white;
+    z-index: 0;
+    
+}
+#div h1{
+    
+    width:90%;
+    text-align: left;
+
+    
+}
+#change{
+    line-height: 120px;
+}
+#div h6{
+    
+    width:90%;
+    text-align: left;
+font-size: 
+10px;
+ font-family: poppins;
+ opacity:0.8
+    
+}
+#au{
+    height:100%;
+    width:100%;
+  
+  
+}
+#oa{
+    
+    height:100%;
+    width:100%; 
+    background-image: url("uw3.png"); 
+    background-size: cover;
+}
+#click{
+    transition: 0.5s ;
+    border: none;
+     background-color:#f7b733;
+    height: 50px; width: 200px;
+    font-family: poppins;
+      border-radius: 10px;
+     font-size: 30px;
+   
+    
+}
+#click:hover{
+    background-color: #fc4a1a;
+}
+#donate{
+    height: 100%;
+    width:100%;
+    background-image: url("yes2.png");
+    background-size: cover;
+    background-color: #fc4a1a;
+}
+#donate_txt{
+    font-size: 60px;
+    font-weight: 10;
+padding-top: 200px;
+color:#fc4a1a;
+letter-spacing: 5px;
+}
+#donate_tbl{
+background-color:#dfdce3aa;
+height: 50%;
+width: 80%;
+border-radius: 50px 0px 50px 0px;
+
+}
+#btn1{
+    height:50px; 
+    width:200px;
+     background-color:#55d6c2;
+     border:none;
+     border-radius: 10px;
+     font-family: poppins;
+     font-size: 30px;
+     color: #dfdce3;
+     transition: 0.5s;
+     
+
+}
+#btn1:hover{
+   
+    color: #55d6c2;  
+    background-color:#dfdce3;}
+
+    #btn2{
+        height:50px; 
+        width:200px;
+         background-color:#dfdce3;
+         border:none;
+         border-radius: 10px;
+         font-family: poppins;
+         font-size: 30px;
+         color: #55d6c2;
+         transition: 0.5s;
+         
+    
+    }
+    #btn2:hover{
+       
+        color: #dfdce3;  
+        background-color:#55d6c2;}
+    
+    a{
+        color:black;
+    text-decoration: none;
+    }    
+    a:hover{
+        text-decoration: underline;
+    }

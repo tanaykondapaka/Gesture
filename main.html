@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bahianita&family=Dancing+Script:wght@700&family=Freckle+Face&family=Poppins&family=Righteous&family=Roboto&family=Special+Elite&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/db78c8f9ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+ 
+    <title>
+            Gesture | App
+        </title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body style="background-image:url(bg3.png); background-size:200px">
+<center>
+    <h1 id="title">Gesture-The App</h1>
+    <h2 id="sub">Take a Selfie of your Gesture and know its Meaning</h2>
+    <table>
+        <tr>
+            <th style="height: 550px;">
+                <center><h1 id="dt">Camera</h1></center>
+                <div id="camera"></div><br><br>
+                <button id="pic" onclick="cam_on()">Take Pic</button>
+            </th>
+            <th style="height: 550px;">
+                <div id="emoji_div"> &#128077 &#128076 &#128074 &#9995</div>
+               <center> <h1 id="dt" style="border-radius:7.5px 7.5px 0 0;height:20px;font-size:15px; margin-top: 30px; background-color: #55d6c2; width: 100px;">Prediction</h1></center>
+                <div id="prediction">
+    <h1 style="padding-top:20px;">The Predicted Emoji Is-</h1>
+    <h1 id="predict">
+        <b id="pe"></b>
+        <p id="pt"></p>
+    </h1>
+</div>
+            </th>
+            <th style="height: 550px;">
+                <center><h1 id="dt">Snapshot</h1></center>
+                <div id="selfie"></div><br><br>
+                <button id="rec" onclick="check()">Scan Pic</button>
+            </th>
+        </tr>
+    </table>
+</center>
+    </body>
+    <script src="main2.js"></script>
+</html>

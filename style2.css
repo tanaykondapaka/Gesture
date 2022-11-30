@@ -1,0 +1,152 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+
+body{
+    border-top: 20px black solid;
+}
+#title{
+    font-size: 50px;
+    font-family: righteous;
+    border-radius: 0 0 25px 25px;
+    background-color: black;
+     color: WHite;
+     font-weight: 100;
+     width: 450px;
+     margin-top: -15px;
+     padding-bottom: 10px;
+}
+#sub{
+    font-size: 30px;
+   font-family: poppins;
+   color:#fc4a1a;
+   margin-top: 20px;
+   border-radius: 25px;
+   border: 10px #fc4a1a solid ;
+    width:fit-content;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#rec{
+    border: none;
+     background-color:#f7b733;
+    height: 50px; width: 200px;
+    font-family: poppins;
+      border-radius: 10px;
+     font-size: 30px;
+     box-shadow: 7px 7px #fc4a1a;
+
+}
+#rec:hover{
+    margin-top: 2px;
+    margin-bottom: -2px;
+    box-shadow: 5px 5px #fc4a1a;
+}
+#rec:active{
+    margin-top: 5px;
+    margin-bottom: -5px;
+    box-shadow: 2px 2px #fc4a1a;
+}
+#selfie{
+    
+    border-radius: 10px;
+    height:350px;
+    width:450px;
+    background-color:#f7b733;
+}
+
+#pic{
+    border: none;
+     background-color:#f7b733;
+    height: 50px; width: 200px;
+    font-family: poppins;
+      border-radius: 10px;
+     font-size: 30px;
+     box-shadow: 7px 7px #fc4a1a;
+
+}
+#pic:hover{
+    margin-bottom: -2px;
+    margin-top: 2px;
+    box-shadow: 5px 5px #fc4a1a;
+}
+#pic:active{
+    margin-bottom: -5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px #fc4a1a;
+}
+#camera{
+
+    border-radius: 10px;
+    height:350px;
+    width:450px;
+    background-color:#f7b733;
+}
+#dt{
+   width: 150px;
+   border-radius: 10px 10px 0 0;
+   text-decoration: underline;
+    background-color: #f7b733;
+    font-size: 20px;
+    font-family: poppins;
+}
+
+#emoji_div{
+height:60px;
+width: 300px;
+background-color: #fc4a1a;
+margin-top: -250px;
+border-radius: 0px 0px 25px 25px;
+font-size: 36px;
+margin-left: 100px;
+    margin-right: 100px;
+    
+   
+
+}
+
+#prediction{
+    width: 300px; background-color:#55d6c2 ;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    height: 400px;
+    margin-bottom: -200px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-family: poppins;
+}
+#picture{
+    margin-top: 5px;
+    height: 340px;
+    width: 450px;
+}
+
+#pe{
+    font-size: 200px;
+}
+#pt{
+    font-size: 30px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
